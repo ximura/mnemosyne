@@ -1,0 +1,3 @@
+notion_api_key: "secret_xxx"
+database_id: "abc123"
+chatgpt_export_path: "~/chatgpt_export"
