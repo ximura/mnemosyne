@@ -42,3 +42,5 @@ It automatically organizes chats, adds tags, and groups related topics to help y
 git clone https://github.com/ximura/mnemosyne.git
 cd mnemosyne
 go build -o mnemo ./cmd/mnemosyne
+./bin/mnemo sync --config .mnemo.yaml
+```

@@ -58,6 +58,6 @@ func initConfig() {
 			slog.String("filename", viper.ConfigFileUsed()),
 		)
 	} else {
-		logger.Info("⚠️  No config file found — using defaults.")
+		logger.Warn("⚠️  No config file found — using defaults.")
 	}
 }
